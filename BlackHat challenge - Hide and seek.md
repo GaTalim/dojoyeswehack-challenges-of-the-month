@@ -275,6 +275,7 @@ I started with a known file path:
 ```
 snippets/flag.md
 ``` 
+![alt text](https://github.com/https://github.com/GaTalim/dojoyeswehack-challenges-of-the-month/images/blob/master/ctf-blackHat-try.jpg?raw=true)
 
 But here's where it gets interesting.
 
@@ -293,6 +294,7 @@ I tested this by trying to include it with the snippet syntax:
 ```
 --8<-- "lib/__pycache__/hide.cpython-312.pyc"
 ```
+![alt text](https://github.com/https://github.com/GaTalim/dojoyeswehack-challenges-of-the-month/images/blob/master/ctf-blackhat-sucess.jpg?raw=true)
 And boom — it worked! I got the output.
 
 
