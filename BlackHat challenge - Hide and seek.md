@@ -294,7 +294,7 @@ I tested this by trying to include it with the snippet syntax:
 ```
 --8<-- "lib/__pycache__/hide.cpython-312.pyc"
 ```
-![Sucess](https://github.com/https://github.com/GaTalim/dojoyeswehack-challenges-of-the-month/raw/images/ctf-blackhat-sucess.png)
+![CTF BlackHat](https://github.com/GaTalim/dojoyeswehack-challenges-of-the-month/raw/images/ctf-blackhat-sucess.png)
 
 
  And boom — it worked! I got the output.
