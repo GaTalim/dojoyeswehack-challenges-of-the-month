@@ -274,8 +274,7 @@ I started with a known file path:
 
 ```
 snippets/flag.md
-```
-** Image ** 
+``` 
 
 But here's where it gets interesting.
 
@@ -296,7 +295,6 @@ I tested this by trying to include it with the snippet syntax:
 ```
 And boom — it worked! I got the output.
 
-** Image ** 
 
 **FLAG{A_B1t_0f_F0r3nsic5_T0_F1nd_M3}**
 
