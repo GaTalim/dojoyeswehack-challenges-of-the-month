@@ -275,7 +275,7 @@ I started with a known file path:
 ```
 snippets/flag.md
 ``` 
-!Try(https://github.com/GaTalim/dojoyeswehack-challenges-of-the-month/blob/main/images/ctf-blackHat-try.jpg?raw=true)
+![CTF BlackHat](https://github.com/GaTalim/dojoyeswehack-challenges-of-the-month/raw/main/images/ctf-blackHat-try.jpg)
 
 But here's where it gets interesting.
 
@@ -294,8 +294,10 @@ I tested this by trying to include it with the snippet syntax:
 ```
 --8<-- "lib/__pycache__/hide.cpython-312.pyc"
 ```
-!Sucess(https://github.com/https://github.com/GaTalim/dojoyeswehack-challenges-of-the-month/images/blob/master/ctf-blackhat-sucess.png?raw=true)
-And boom — it worked! I got the output.
+![Sucess](https://github.com/https://github.com/GaTalim/dojoyeswehack-challenges-of-the-month/raw/images/ctf-blackhat-sucess.png)
+
+
+ And boom — it worked! I got the output.
 
 
 **FLAG{A_B1t_0f_F0r3nsic5_T0_F1nd_M3}**
