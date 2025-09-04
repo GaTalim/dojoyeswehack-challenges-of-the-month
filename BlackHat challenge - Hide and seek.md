@@ -301,10 +301,3 @@ I tested this by trying to include it with the snippet syntax:
 
 
 **FLAG{A_B1t_0f_F0r3nsic5_T0_F1nd_M3}**
-
-
-**Remember:** Share knowledge, protect sensitive information, and help make the internet safer!
-
----
-
-*Happy CTF hunting!*
