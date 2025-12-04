@@ -136,27 +136,7 @@ One challenge: when passing the payload via URL encoding, we need to ensure the 
 4. Shell executes: `echo -n 'test';env;echo'test' | hexdump`
 5. Command injection successful!
 
-## Prove
-
-
-## Defense Recommendations
-
-To fix this vulnerability:
-
-```python
-# Normalize FIRST, then filter
-whisperMsg = unicodedata.normalize("NFKC", whisperMsg)
-whisperMsg = whisperMsg.replace("'", "_")
-
-# Better yet: use parameterized commands or shell escaping
-import shlex
-safe_msg = shlex.quote(whisperMsg)
-with os.popen(f"echo -n {safe_msg} | hexdump") as stream:
-    # ...
-```
-
 ## References
 
 - [Python unicodedata documentation](https://docs.python.org/3/library/unicodedata.html)
 - [Unicode Normalization Forms](https://unicode.org/reports/tr15/)
-- [OWASP Unicode Security](https://owasp.org/www-community/vulnerabilities/Unicode_Encoding)
